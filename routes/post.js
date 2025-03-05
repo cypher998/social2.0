@@ -12,6 +12,7 @@ postRouter.post("/create" , auth,async (req , res)=>{
       userid:userid,
       caption:caption,
          media:media,
+         // fdshfksdjhfskjfhksjfhskdfhd
          
      })
      res.status(201).json({message:"post created successfully"})
